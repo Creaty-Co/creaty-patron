@@ -1,0 +1,5 @@
+services:
+  patron:
+    build:
+      context: .
+    command: ['python', 'main.py']
